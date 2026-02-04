@@ -11,6 +11,7 @@
         return 0;
         }
 뭔가 printf(~);
+
 **여기서 ";" 이거 까먹으면 안될듯!!**
 
 **문자열 특수 문자 포함**
@@ -29,5 +30,7 @@
     printf("\"Hello"");
 하면 "Hello"가 출력됨!!
 He says "It's a really simple sentance".가 예제였음
+
 그럼 "랑 '가 특수문자임.
+
 '.'는 특수문자 아님
