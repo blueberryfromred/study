@@ -7,10 +7,11 @@
 
     int main() {
     
-        // Please write your code here. //example is ##printf("~~");//
-        return 0;
+        // Please write your code here.
         }
 뭔가 printf(~);
+
+출력 기본형이다~~ 이 구조는 알고 있자
 
 **여기서 ";" 이거 까먹으면 안될듯!!**
 
