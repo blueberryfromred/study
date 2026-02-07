@@ -52,8 +52,7 @@ He says "It's a really simple sentance".가 예제였음
     }
 하면 
 Hello World
-
-C is fun \n 이라고 나옴 
+C is fun이라고 나옴 
 
 
 
