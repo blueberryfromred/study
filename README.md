@@ -36,7 +36,7 @@ He says "It's a really simple sentance".가 예제였음
 
 **'.'는 특수문자 아님**
 
-
+# study 코드트리 2일차
 
 
 
