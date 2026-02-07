@@ -39,8 +39,21 @@ He says "It's a really simple sentance".가 예제였음
 # study 코드트리 2일차
 **줄바꿈**
 -------------------------------------------
+'\n' <----- 요녀석을 이용한다!!
+이 녀석은 new line을 의미하는 특수문자!
 
+    #include <stdio.h>
 
+    int main() {
+        printf("Hello World");
+        printf("\n");
+        printf("C is fun");
+        return 0;
+    }
+하면 
+Hello World
+
+C is fun \n 이라고 나옴 
 
 
 
