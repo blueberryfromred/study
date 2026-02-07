@@ -50,9 +50,10 @@ He says "It's a really simple sentance".가 예제였음
         printf("C is fun");
         return 0;
     }
-하면 
+하면  
 Hello World  
-C is fun이라고 나옴 
+C is fun  
+이라고 나옴 
 
 
 
