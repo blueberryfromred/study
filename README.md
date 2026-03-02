@@ -25,7 +25,7 @@
     printf("He says \"It\'s a really simple sentence\".");
     return 0;
     }
-여기서 ", !, 뭐 이런 특수 문자들을 **문자**로서 넣으려면 '\'가 필요함
+여기서 "나 뭐 이런 특수 문자들을 **문자**로서 넣으려면 '\'가 필요함
     
     example) 
     printf("\"Hello"");
