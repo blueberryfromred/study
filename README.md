@@ -91,8 +91,38 @@ printf(3); 을 해버리면 애러가 뜬다;;
 그래야지 숫자 3과 5가 '3 5'와 같은 모양으로 나옴
 
 # study 코드트리 3일차
-**한줄 출력**
+**기본 활용 문제 풀이**
 ---------------------------------------------
+
+    #include <stdio.h>
+
+    int main() {
+        printf("Total days in Year");
+        printf("\n");
+        printf("%d", 365);
+        printf("\n");
+        printf("Circumference rate");
+        printf("\n");
+        printf("%d", 3);
+        printf(".");
+        printf("%d", 1415926535);
+        return 0;    
+    }
+이게 내 풀이인데 너무 비효율적인거 같음
+
+    #include <stdio.h>
+
+    int main() {
+        printf("Total days in Year\n");
+        printf("%d\n", 365);
+        printf("Circumference rate\n");
+        printf("%.10f", 3.1415926535);
+        return 0;
+    }
+여기가 좀 더 나은 구조인거 같음!!
+
+
+
 
 
 
