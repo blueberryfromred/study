@@ -259,6 +259,63 @@ A is 5
 A is 3  
 B is 3
 
+**두 변수 값을 교환**
+--------------------------------------------------  
+1) temp 이용
+
+   		temp = a;
+		a = b;
+		b = temp;
+이게 기본틀임. 이렇게 되면 *a랑 b에 있는 값이 스위치 된다*  
+
+	
+	#include <stdio.h>
+	int main() {
+    int a = 5, b = 3;
+    int temp;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    printf("A is %d B is %d", a, b);
+    return 0;
+	}
+결과값: A is 3 B is 5  
+***근데!!!***  
+
+	int temp;
+	temp=a;
+	=
+	int temp=a;
+2줄 쓸거 한 줄로 쓰는 방법도 있음  
+예제1) 세 정수 a, b, c에 차례로 5, 6, 7을 넣고  
+b에는 a값, c에는 b값, a에는 b값을 넣어 출력  
+
+	#include <stdio.h>
+
+	int main() {
+    int a=5, b=6, c=7;
+    int temp=a;
+    a=c;
+    c=temp;
+    temp=b;
+    b=c;
+    c=temp;
+    printf("%d\n%d\n%d", a, b, c);
+    return 0;
+	}
+결과값:  
+7  
+5  
+6  
+
+	int a = 5, b = 6, c = 7;
+    int temp = b;
+    b = a;
+    a = c;
+    c = temp;
+이 부분이 조금 더 간단한거 같아서 참고하면 좋을듯  
 
 
 
