@@ -226,6 +226,42 @@ printf(3); 을 해버리면 애러가 뜬다;;
     return 0;
     }
 
+# study 코드트리 6일차  
+**변수 값 변경**
+---------------------------------------------------  
+
+    #include <stdio.h>
+    int main() {
+	int a = 5;
+	printf("A is %d\n", a);
+
+	a = 3;
+	printf("A is %d", a);
+	return 0;
+    }
+이렇게 되면 변수 a값이 처음엔 5로 설정됐지만 최종적으로 3이 나오게 된다.  
+그리고 조금 틀어서  
+예제1) 변수 a의 값에 다른 변수 b에 있는 값을 가져와 넣어주는 것도 가능함
+
+    
+    #include <stdio.h>
+    int main() {
+
+	int a = 5, b = 3;
+	printf("A is %d\n", a);
+	a = b;
+	printf("A is %d\n", a);
+	a = 2;
+	printf("B is %d", b);
+	return 0;
+    }
+결과값:  
+A is 5  
+A is 3  
+B is 3
+
+
+
 
 
 
